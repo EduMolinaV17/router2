@@ -1,0 +1,58 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+.menu{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+.menu.active{
+    color:red
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+}
+.Card{
+ background-color: rgb(237, 220, 108);
+ color: rgba(9, 5, 69, 0.863);
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+.card_body{
+    padding-left: 120px;
+}
+.pokemonCard{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    background-color: rgb(72, 92, 181);
+    margin: 1% auto;
+    padding: 2%;
+}
+.pokemonCardImg{
+    width: 50%;
+}
+.pokemonDetails{
+    display: flex;
+  flex-direction: column;
+}
+.pokemon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+    margin-top: 10px;
+    width: 200px;
+    background-color: rgb(152, 24, 24);
+    color: #ffffff;
+}
+.detalles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
